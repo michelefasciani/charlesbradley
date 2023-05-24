@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Charles Bradley</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.min.css" integrity="sha512-fJcFDOQo2+/Ke365m0NMCZt5uGYEWSxth3wg2i0dXu7A1jQfz9T4hdzz6nkzwmJdOdkcS8jmy2lWGaRXl+nFMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Titillium+Web:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- MENU -->
+    <header class="header">
+        <nav class="header">
+            <div class="logo">
+                <img src="media/logo.png" alt="logo" class="logo">
+            </div>
+            <ul class="menu">
+                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a class="whitelink" href="biografia.html">BIOGRAFIA</a></li>
+                <li><a class="whitelink" href="discografia.html">DISCOGRAFIA</a></li>
+                
+                <li><a class="whitelink" href="documentazione.html">DOCUMENTAZIONE</a></li>
+            </ul>
+            <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- VIDEO + TITOLO -->
+    <div class="hero">
+        <div class="hero__content">
+            <p class="med-text">1948-2017</p>
+            <h1 class="big-text">Charles Bradley</h1>
+            <p class="med-text italic">The Screaming Eagle of Soul</p>
+        </div>
+        <video autoplay muted loop id="video-background">
+            <source src="media/videov.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!--BIOGRAFIA in home-->
+    <div class="poster mt-3">
+        <div class="poster__img">
+            <img src="media/charles.png" alt="">
+        </div>
+        <div class="poster__content">
+            <a href="biografia.html" class="int-link big-text">Biografia</a>
+            <p class="mt-1">“I’m singing the truth.</br>I put my heart and soul into it.</br>If you’re gonna sing, sing from your heart and the world will hear you.”</p>
+            <p class="italic">- Charles Bradley, intervista a Pitchfork.</p>
+        </div>
+    </div>
+    
+    <!-- DISCOGRAFIA in home-->
+    <div class="grid mt-3">
+        <div class="col">
+            <a href="discografia.html" class="int-link big-text">Discografia</a>
+            <p class="mt-1">Fai click sul testo e scopri la discografia completa dell'artista.</p>
+            <p class="mt-1 med-text">Album in studio</p>
+        </div>
+    </div>
+        <div class="album">
+
+            <div class="card">
+                <p class="card_title">No Time for Dreaming</p>
+                <p class="card_subtitle">2011, Daptone Records</p>
+                <img src="media/no-time-for-dreaming.jpg" class="card_img">
+            </div>
+
+            <div class="card">
+                <p class="card_title">Victim of Love</p>
+                <p class="card_subtitle">2013, Daptone Records</p>
+                <img src="media/victim-of-love.jpg" class="card_img">
+            </div>
+
+            <div class="card">
+                <p class="card_title">Changes</p>
+                <p class="card_subtitle">2016, Daptone Records</p>
+                <img src="media/changes.jpg" class="card_img">
+            </div>
+
+            <div class="card">
+                <p class="card_title">Black Velvet</p>
+                <p class="card_subtitle">2018, Daptone Records</p>
+                <img src="media/black-velvet.jpg" class="card_img">
+            </div>
+        </div>
+
+
+        <!--FOOTER in home-->
+        <footer class="footer">
+
+            <div class="footer_content">
+                <img src="media/logo.png" class="logo__footer">
+            </div>
+
+            <div class="section">
+                <p>Questo non è il sito ufficiale di Charles Bradley, il suo unico intento è il tributo alla vita dell'artista.</br>This is not Charles Bradley's official website, its only purpose is to pay tribute to the life of the artist.</p>
+            </div>
+
+            <div class="link__section">
+                <ul class="linkutili">
+                    <li><a href="https://www.instagram.com/charlesbradley/" target="_blank" class="normal-text tw"><img src="media/instagram.png" alt="" class="foot__img"> @charlesbradley</a></li>
+                    <li><a href="https://open.spotify.com/artist/462T0buQ5ScBUQCRpodDRf?si=Zqsx4JJQQiOSj_BqbykPQw" target="_blank" class="normal-text tw"><img src="media/spotify.png" alt="" class="foot__img"> Charles Bradley</a></li>
+                    <li><a href="https://daptonerecords.com/artists/charles-bradley/" target="_blank" class="normal-text tw"><img src="media/daptonerecords.png" alt="" class="foot__img"> daptonetecords.com</a></li>
+                    <li><a href="https://genius.com/artists/Charles-bradley" target="_blank" class="normal-text tw"><img src="media/genius.png" alt="" class="foot__img1"> genius.com</a></li>
+                </ul>
+            </div>
+
+        </footer>
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+    <script>
+        $( document ).ready(function() {
+
+            /*Open Panel*/
+            $( ".hamburger" ).on('click', function() {
+                $(".menu").toggleClass("menu--open");
+            });
+
+        });
+    </script>
+    
+    <script>
+      let hamburger = document.querySelector('.toggle-single');
+      hamburger.addEventListener("click", function(){
+        hamburger.classList.toggle('open');
+      });
+    </script>
+
+</body>
+</html>
