@@ -78,7 +78,7 @@ p { font-family: 'Kanit', sans-serif; font-weight: 300; color: whitesmoke; paddi
 }
 
 .active {
-    border: 3px solid black;
+    border: 3px solid whitesmoke;
     color: black !important;
     background: whitesmoke;
     border-radius: 5px;
@@ -90,7 +90,7 @@ p { font-family: 'Kanit', sans-serif; font-weight: 300; color: whitesmoke; paddi
 }
 
 .whitelink:hover {
-    border: 3px solid black;
+    border: 3px solid whitesmoke;
     background: whitesmoke;
     color: black;
     border-radius: 5px;
